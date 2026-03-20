@@ -39,14 +39,14 @@ def ficha():
     #   - Usuario: apellido.nombre en minúsculas
     print(f"Usuario: {apellido.lower()}.{nombre.lower()}")
     #   - Verificar si el email contiene @
-    print(f"Email valido: {"@" in email}")
+    print(f"Email valido: {'@' in email}")
     #   - Extraer el dominio del email
     print(f"Dominio: {email[arroba+1:]}")
     #   - Nombre con guion bajo en vez de espacio
-    print(f"Nombre para archivo: {nombre_apellido.replace(" ", "_")}")
+    print(f"Nombre para archivo: {nombre_apellido.replace(' ', '_')}")
     #   - Contar las 'a' en el nombre
 
-    print(f"Cantidad de a: {nombre_apellido.count("a")}")
+    print(f"Cantidad de a: {nombre_apellido.count('a')}")
     #   - Código secreto: nombre invertido en mayúsculas
     print(f"Codigo secreto: {nombre_apellido[::-1].upper()}")
     #   - Las 3 notas, su suma, promedio y promedio entero
