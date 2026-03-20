@@ -8,3 +8,26 @@ def string_methods():
     multilinea = """Linea 1
     Linea 2
     Linea 3"""
+
+    linea_1 = multilinea[0:7]
+    linea_2 = multilinea[12:19]
+    linea_3 = multilinea[24:]
+    print(f"Strip: {nombre.strip()}")
+    print(f"Lstrip: {nombre.lstrip()}")
+    print(f"Rstrip: {nombre.rstrip()}")
+    print(f"Upper: {frase.upper()}")
+    print(f"Lower: {frase.lower()}")
+    print(f"Title: {frase.title()}")
+    print(f"Find: {frase.find("gran")}")
+    print(f"Replace: {frase.replace("programacion", "desarrollo")}")
+    print(f"Count: {frase.find("a")}")
+    print(f"Contiene Python: {"Python" in frase}")
+    print(f"Contiene Java: {"Java" in frase}")
+    print(f"Slice: {frase[0:6]}")
+    print(f"Paso: {frase[0:6:2]}")
+    print(f"Reverso: {frase[5::-1]}")
+    print(f"{nombre.strip()} sabe {frase[0:6]}")
+    print(linea_1)
+    print(linea_2)
+    print(linea_3)
+string_methods()
